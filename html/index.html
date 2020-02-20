@@ -1,0 +1,27 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="leaflet.css">
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+</head>
+<body>
+<div id="container">
+	<div id="map"></div>
+	<div id="toolbar">
+		<form>
+			<div class="form-group>
+				<label for="speed">Speed</label>
+				<input type="text" class="form-control" id="speed" onchange=updateSpeed()></input>
+			</div>
+			<div class="form-group>
+				<label for="position">Position</label>
+				<input type="text" class="form-control" id="position"></input>
+			</div>
+	</div>
+</div>
+</body>
+<script src="jquery-3.4.1.slim.min.js"></script>
+<script src="leaflet.js"></script>
+<script src="script.js"></script>
+<script src="bootstrap.min.js"></script>
+</html>
