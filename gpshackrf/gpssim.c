@@ -1858,6 +1858,7 @@ int main(int argc, char *argv[])
 				t0.sec = (double)gmt->tm_sec;
 
 				date2gps(&t0, &g0);
+				g0 = incGpsTime(g0, 20.0);
 
 				break;
 			}
